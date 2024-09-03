@@ -1,0 +1,522 @@
+.header{
+    width:100%;
+    height:90vh;
+    border:1px solid black;
+    background-image:url(images/slide-01.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+.nav{
+    width:100%;
+    height:71px;
+}
+.logo{
+    width:50%;
+    float:left;
+}
+.logo img{
+    margin-left: 6rem;
+    margin-top: 1rem;
+}
+.nav-li{
+    width:50%;
+    float:left;
+}
+.nav-li ul li a{
+    float:left;
+    margin-left:3rem;
+    color:white;
+    font-size: 19px;
+    text-decoration: none;
+}
+.nav-li ul li a:hover{
+    scale:1.03;
+    background-color: rgb(44, 254, 138);
+    transition: 0.2s;
+    border-radius:4px;
+    color:white;
+}
+.head-page{
+    height:450px;
+    width:70%;
+    margin-top:7rem;
+    margin-left:6rem;
+}
+.head-page h1{
+    color:white;
+    font-size: 45px;
+    font-weight: bold;
+}
+.head-page .l2{
+    margin-top:-23px;
+}
+.head-page p{
+    color:white;
+    margin-top: -5px;
+}
+.head-page .p1{
+    margin-top:3rem;
+}
+.head-page button{
+    margin:2rem;
+}
+.head-page button.btn1{
+    background-color: rgb(17, 207, 102);
+    width:12%;
+    height:30px;
+    border:none;
+    color:white;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.head-page button.btn2{
+    background-color:rgb(254, 36, 36);
+    width:12%;
+    height:30px;
+    border:none;
+    color:white;
+    font-size: 15px;
+    border-radius: 3px;
+}
+button:hover{
+    scale:1.1;
+    transition:0.2s;
+}
+.container{
+    height:70vh;
+    border:none;
+    width:80%;
+    margin:auto;
+}
+.container p{
+    font-size: 14px;
+}
+.container p.p11{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:4rem;
+}
+
+.block1,.block2,.block3,.block4,.block5,.block6{
+    height:90px;
+    width:40%;
+    background-color: #ececec;
+    margin:1.5rem;
+    border-radius: 5px;
+}
+.block2{
+    margin-top: 5rem;
+}
+.block1,.block2,.block3{
+    float:left;
+}
+.block4,.block5,.block6{
+    float:left;
+}
+.banner{
+    width:100%;
+    height:200px;
+    border:1px solid black;
+    background-image:url(images/heading-bg.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    margin-bottom: 3.5rem;
+}
+.side1{
+    float:left;
+    color:white;
+}
+.button-section{
+    float:right;
+    margin-right:12rem;
+    margin-top:4rem;
+    width:30%;
+}
+.banner h1{
+    margin-left:10rem;
+    font-size:40px;
+    font-weight: bold;
+}
+.banner .side1 h1.banh{
+    margin-top:2.5rem;
+}
+.banner .side1 h1.banhh{
+    margin-top:-1.5rem;
+}
+/*.banner button.btn2{
+    margin-right: 8rem;
+}*/
+.banner button{
+    margin-right:1rem;
+}
+.banner button.btn1{
+    background-color: rgb(17, 207, 102);
+    width:30%;
+    height:30px;
+    border:none;
+    color:white;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.banner button.btn2{
+    background-color:rgb(254, 36, 36);
+    width:30%;
+    height:30px;
+    border:none;
+    color:white;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.mid-text{
+    width:100%;
+    height:100px;
+    text-align: center;
+}
+.mid-text p{
+    font-weight: bold;
+}
+.mid-text h2{
+    color:rgb(211, 105, 69);
+    font-size: 35px;
+    font-weight: bold;
+    margin-top:-1rem;
+}
+.about-us{
+    width:100%;
+    height:370px;
+    margin-bottom: 2.5rem;
+}
+.tab{
+    width:60%;
+    height:370px;
+    float:left;
+    text-align: center;
+}
+.aboutcontent{
+    width:25%;
+    height:370px;
+    float:left;
+    padding:5px;
+    box-sizing: border-box;
+
+}
+.tab button{
+    width:15%;
+    height:35px;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 0px 0px 5px rgb(211, 105, 69);
+    border:none;
+    margin:1rem;
+    color:rgb(211, 105, 69);
+}
+.tab table{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border:none;
+}
+.tab table td{
+    color:rgb(65, 65, 65);
+    font-size: 13px;
+    border:none;
+}
+.aboutcontent p{
+    color:rgb(64, 64, 64);
+    font-size: 14px;
+    margin-top:2rem;
+}
+.aboutcontent button.btn1{
+    background-color: rgb(17, 207, 102);
+    width:30%;
+    height:30px;
+    border:none;
+    color:white;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.footer{
+    width:100%;
+    height:450px;
+    border:1px solid black;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    background-image: url(images/calculator-bg.jpg);
+}
+.footer img{
+    margin-left: 10rem;
+    margin-top: -3rem;
+    float:left;
+}
+.footer .farmbox{
+    width:30%;
+    height:100%;
+    float:left;
+    margin-left: 3rem;
+    color:white;
+}
+.footer .farmbox input{
+    width:60%;
+    height:20px;
+    margin:5px;
+    background-color:rgb(159, 159, 159);
+    border:none;
+    border-radius: 3px;
+}
+.footer .farmbox h1{
+    margin-top: -1rem;
+    font-size: 40px;
+}
+.footer .farmbox .sub input{
+    width:60%;
+    margin:5px;
+}
+.footer .farmbox .sub{
+    margin-top:1rem;
+}
+.footer .farmbox .sub label{
+    margin-top:3rem;
+}
+.footer .farmbox label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer .farmbox .sub textarea{
+    width:50%;
+    height:30px;
+    margin:5px;
+    background-color:rgb(159, 159, 159);
+    border:none;
+    border-radius: 3px;
+
+}
+.footer .farmbox button.btn1{
+    background-color:rgb(247, 138, 101);
+    width:30%;
+    height:30px;
+    border:none;
+    color:white;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-top: 2rem;
+}
+.testi{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    width:100%;
+    height:100px;
+    text-align: center;
+}
+.testi h2{
+    
+    font-size: 35px;
+    font-weight: bold;
+    margin-top:-1rem;
+}
+.room{
+    width:60%;
+    box-shadow: 1px 2px 6px rgb(80, 79, 79);
+    height:250px;
+    display: flex;
+    margin:auto;
+    border-radius: 4px;
+}
+.room .text{
+    width:70%;
+    padding:1rem;
+    box-sizing: border-box;
+}
+.room .img-box{
+    width:30%;
+}
+p.sp{
+    margin-top:-1rem;
+    color:rgb(5, 111, 5);
+    font-size: 13px;
+}
+.room .img-box img{
+    width:100%;
+    height:100%;
+}
+.last{
+    width:100%;
+    height:100px;
+    margin-top: 6rem;
+    display:flex;
+    background:linear-gradient(to right,#00093c,#2d0b00);
+}
+.last img{
+    width:20%;
+    height:50%;
+    margin-top: 1.5rem;
+}
+.copyright{
+    width:100%;
+    height:50px;
+    background:linear-gradient(to right,#00093c,#2d0b00);
+    color: white;
+    text-align: center;
+}
+@media (max-width:580px){
+    html{
+        font-size:6px;
+    }
+    .header{
+        height:60vh;
+    }
+    .nav-li {
+        width: 50%;
+        float:none;
+        margin:auto;
+        width: 80%;
+    }
+    .nav-li ul li a{
+        font-size:8px;
+        margin-left: 2rem;
+    }
+    .nav {
+        width: 100%;
+        height: 140px;
+        text-align: center;
+    }
+    .logo {
+        width: 50%;
+        float:none;
+        margin:auto;
+    }
+    .logo img {
+        margin-left:0px;
+        margin-top: 1rem;
+        width:60%;
+    }
+    .head-page h1 {
+        color: white;
+        font-size:20px;
+        font-weight: bold;
+    }
+    .head-page .l2 {
+        margin-top: -10px;
+    }
+    .head-page {
+        height: 250px;
+        width: 70%;
+        margin-top: 4rem;
+        margin-left: 6rem;
+    }
+    .head-page button.btn1{
+        width: 17%;
+        height: 10px;
+        font-size: 4px;
+    }
+    .head-page button.btn2{
+        width: 17%;
+        height: 10px;
+        font-size: 4px;
+    }
+    .container p{
+        font-size:6px;
+    }
+    .container p.p11{
+        font-size:8px;
+    }
+    
+    .block1,.block2,.block3,.block4,.block5,.block6{
+        height:45px;
+        width:40%;
+    }
+    .container {
+        height: 38vh;
+        width:90%;
+        border: none;
+        margin:auto;
+    }
+    .block2{
+        margin-top: 7rem;
+    }
+    .banner h1 {
+        margin-left: 10rem;
+        font-size: 20px;
+    }
+    .banner button.btn1{
+        width: 20%;
+        height: 10px;
+        font-size: 4px;
+    }
+    .banner button.btn2{
+        width: 20%;
+        height: 10px;
+        font-size: 4px;
+    }
+    .tab button{
+        width: 21%;
+        height: 14px;
+        font-size: 5px;
+        margin:auto;
+    }
+    .button-section{
+        width:35%;
+    }
+    .mid-text h2 {
+        font-size: 25px;
+
+    }
+    mid-text {
+        width: 100%;
+        height: 80px;
+}
+.about-us {
+    font-size: 6px;
+}
+.tab table td {
+    font-size: 8px;
+}
+.aboutcontent{
+    font-size: 6px;
+    display: none;
+}
+.footer .farmbox h1 {
+    font-size: 20px;
+}
+.footer .farmbox input{
+    width:60%;
+    height:15px;
+}
+.footer {
+    width: 100%;
+    height: 400px;
+}
+.footer img {
+    margin-left: 3rem;
+    margin-top: -3rem;
+    height: 418px;
+    width: 52%;
+}
+.footer .farmbox input {
+    width: 76%;
+    height: 10px;
+}
+.footer .farmbox button.btn1 {
+    background-color: rgb(247, 138, 101);
+    width: 49%;
+    height: 14px;
+    font-size: 6px;
+}
+.footer .farmbox .sub input {
+    width: 74%;
+}
+.testi h2 {
+    font-size: 25px;
+}
+.testi{
+    height:70px;
+}
+.room{
+    height:150px;
+}
+.last{
+    height:35px;
+}
+.footer .farmbox .sub textarea {
+    width:72%;
+}
+}
